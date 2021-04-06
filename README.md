@@ -1,6 +1,5 @@
 # 说明
-清华大学操作系统课程实验，完成$\mu$core操作系统内核。  
-更多内容请参考：  
+清华大学操作系统课程实验，实现ucore操作系统内核。  
 [官方github](https://github.com/chyyuu/os_kernel_lab/tree/master)  
 [gitbook实验指导书](https://chyyuu.gitbooks.io/ucore_os_docs/content/)。
 # 实验内容
