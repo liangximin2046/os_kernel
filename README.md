@@ -4,8 +4,8 @@
 [gitbook实验指导书](https://chyyuu.gitbooks.io/ucore_os_docs/content/)
 
 # 实验内容
-lab2 ：物理内存管理  
-lab3 ：虚拟内存管理  
+lab2 : 物理内存管理  
+lab3 : 虚拟内存管理  
 lab4 : 内核线程管理  
 lab5 : 用户进程管理  
 lab6 : 进程调度  
