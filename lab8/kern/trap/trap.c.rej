@@ -1,0 +1,16 @@
+--- kern/trap/trap.c	2021-04-02 23:03:34.553502308 +0800
++++ kern/trap/trap.c	2021-04-14 18:54:02.660917842 +0800
+@@ -231,7 +239,12 @@
+         /* you should upate you lab1 code (just add ONE or TWO lines of code):
+          *    Every TICK_NUM cycle, you should set current process's current->need_resched = 1
+          */
+-  
++	++ticks;
++	if(ticks % TICK_NUM == 0)
++	{
++            assert(current != NULL);
++            current->need_resched = 1;
++	}
+         break;
+     case IRQ_OFFSET + IRQ_COM1:
+         c = cons_getc();
